@@ -1,0 +1,521 @@
+/* 媒体查询 */
+@media screen and (max-width:767px){
+    .body-wrap{
+        padding:0 !important
+    }
+    .video-pc-wrap{
+        padding: 0;
+    }
+    .keep-header .nav-wrap-phone{
+        display: block;
+    }
+    .keep-header .nav-wrap-pc{
+        display: none;
+    }
+    .video-phone-wrap{
+        display: block;
+    }
+    .video-pc-wrap{
+        display: none;
+    }
+    /* 小屏的训练模块 */
+    .textpart{
+        padding: 4.5rem 0;
+    }
+    .textpart .p_one{
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin: 0 2.3rem;
+    }
+    .textpart .p_two{
+        font-size: 1.36rem;
+        margin: 1.6rem 4rem 0;
+    }
+    .training-wrap{
+        height: 83.5rem;
+    }
+    .training-wrap .training-block{
+        position: static;
+        width: 100%;
+    }
+    .training-wrap .training-block a{
+        margin: 0;
+        width: 100%;
+        height: 18.5rem;
+        box-shadow: none;
+    }
+    .training-wrap .img_data{
+        display: none;
+    }
+    .training-wrap .img_chart{
+        display: none;
+    }
+    .training-wrap .img_pic{
+        display: none;
+    }
+    .training-wrap .training-text{
+        right: 23px;
+        bottom: 5rem;
+        left: initial;
+        text-align: center;
+        width: 100%;
+    }
+    .training-wrap .training-data{
+        display: none;
+    }
+    .training-wrap .training-data-md{
+        display: none;
+    }
+    .run_part{
+        padding: 6rem 0 20.8rem;
+    }
+    .run-wrap{
+        height: 63.6rem;
+    }
+    .run-wrap .run-config{
+        width: 30rem;
+        top: -15.2rem;
+        right: 50%;
+        margin-right: -15rem;
+    }
+    .run-wrap .run-config .config-speed{
+        height: 26.6rem;
+    }
+    .run-wrap .run-config .config-speed img{
+        width: 280px;
+    }
+    .run-wrap .run-text{
+        bottom: 5rem;
+        right: initial;
+        top: initial;
+        text-align: center;
+        width: 100%;
+    }
+    .run-wrap .config-bottom img{
+        width: 30rem;
+        top: 1px;
+    }
+    .run-wrap .run-track img{
+        display: none;
+    }
+    /* 商品模块 */
+    .store-wrap{
+        height: auto;
+    }
+     /* 用户模块 */
+     .user-wrap{
+        height: 58rem;
+    }
+    /* app链接模块 */
+    .link-wrap{
+        height: 36.8rem;
+    }
+    .link-wrap .img_qrcoud{
+        display: none;
+    }
+    .link-wrap .img_apppages{
+        display: none;
+    }
+    .link-wrap .link-download{
+        position: absolute;
+        top: 4.5rem;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .link-wrap .link-btn{
+        display: block;
+        width: 16rem;
+        height: initial;
+        font-size: 2rem;
+        margin: 2rem auto 0;
+    }
+    .store-wrap .store-s{
+        display: block;
+        width: 100%;
+    }
+    .store-wrap .store-xl-left,.store-wrap .store-xl-center{
+        display: none;
+    }
+    .store-wrap .store-text{
+        position: absolute;
+        top: initial;
+        right: initial;
+        left: 50%;
+        transform: translate(-50%,0);
+        bottom: 31.4%;
+        text-align: center;
+    }
+    .store-wrap .store-text::before{
+        display: none;
+    }
+    .social-wrap .social-content{
+        display: none !important;
+    }
+    .social-wrap .social-text{
+        top: 197px;
+        left: 50%;
+        margin-left: -135px;
+        text-align: center;
+    }
+    .social-wrap .img_camera{
+        left: 50%;
+        margin-left: -154px;
+    }
+}
+@media screen and (min-width:768px){
+    .keep-header .nav-wrap-pc .social-media{
+        display: none;
+    }
+    .body-wrap{
+        padding-top: 49%;
+    }
+    .keep-header .nav-wrap-pc{
+        padding: 11px 35px 0;
+    }
+    .keep-header .nav-wrap-phone{
+        display: none;
+    }
+    .video-phone-wrap{
+        display: none;
+    }
+    .video-container .video-control #play{
+        display: none;
+    }
+    .video-container .video-bottom .bottom-right a.ew_code{
+        display: none;
+    }
+    /* 中屏的训练模块 */
+    .training-wrap{
+        height: 1050px;
+    }
+    .textpart{
+        padding: 130px 0 140px;
+    }
+    .training-wrap .training-block{
+        width: 740px;
+        left: 50%;
+        margin-left: -370px;
+        top: -45px;
+    }
+    .training-wrap .training-block a{
+        display: inline-block;
+        margin: 0 0 10px;
+        width: 356px;
+        height: 207px;
+        box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+    }
+    .training-wrap .training-block a:nth-child(2n){
+        margin-left: 10px;
+    }
+    .training-wrap .training-block a:last-child{
+        display: inline-block;
+    }
+    .training-wrap .training-body{
+        top: initial;
+        bottom: 32px;
+        left:27.8%
+    }
+    .training-wrap .img_data{
+        display: block;
+        top: 498px;
+        right: 96px;
+    }
+    .training-wrap .img_chart{
+        left: 25px;
+        top: 444px;
+    }
+    .training-wrap .img_pic{
+        display: none;
+    }
+    .training-wrap .training-data{
+        display: none;
+    }
+    
+    .training-wrap .training-text .text_p2{
+        margin: 14px 0 22px;
+    }
+    .run_part{
+        padding: 130px 0 140px;
+    }
+    
+    /* 商品模块 */
+    .store-wrap{
+        height: 636px;
+    }
+    /* 用户模块 */
+    .user-wrap{
+        height: 560px;
+    }
+
+    /* app链接模块 */
+    .link-wrap{
+        height: 368px;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .training-wrap .training-text{
+        right: 23px;
+        bottom: 72px;
+        left: initial;
+        text-align: right;
+        width: 265px;
+    }
+    .run-wrap .run-track{
+        left: 20%;
+        top: 115px;
+    }
+    .run-wrap .run-text{
+        top: 45px;
+        right: 27px;
+    }
+    .run-wrap .run-config .config-speed{
+        float: left;
+        width: 340px;
+        height: 302px;
+        box-sizing: border-box;
+    }
+    .run-wrap .run-config{
+        width: 700px;
+        top: initial;
+        bottom: -80px;
+        right: 50%;
+        margin-right: -350px;
+    }
+    .run-wrap .run-config .img_2{
+        width: 250px;
+        height: 200px;
+    }
+    .run-wrap .run-config .img_sp1{
+        width: 304px;
+    }
+    .run-wrap .run-config .config-bottom{
+        float: right;margin-top: 0;
+        width: 340px;
+        height: 302px;
+    }
+    .link-wrap .img_qrcoud{
+        display: none;
+    }
+    .link-wrap .img_apppages{
+        display: none;
+    }
+    .link-wrap .link-download{
+        position: absolute;
+        top: 84;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .store-wrap .store-xl-left{
+        position: absolute;
+        left: 50%;
+        margin-left: -349px;
+        top: initial;
+        bottom: 38px;
+        width: 698px;
+        height: 180px;
+        background-image: url(../img/index/store-goods.png);
+    }
+    .store-wrap .store-xl-center{
+        right: initial;
+        left: -2%;
+        bottom: 180px;
+        width: 583px;
+        height: 419px;
+        background-image: url(../img/index/store-keleton768.png);
+    }
+    .store-wrap .store-text{
+        right: 26px;
+    }
+    .social-wrap .social-content{
+        display: none !important;
+    }
+    .social-wrap .social-text{
+        top: 197px;
+        left: 50%;
+        margin-left: -135px;
+        text-align: center;
+    }
+    .social-wrap .img_camera{
+        left: 50%;
+        margin-left: -154px;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    .keep-header .nav-wrap-pc .social-media{
+        display: inline-block;
+    }
+    .body-wrap{
+        padding-top: 49%;
+    }
+    .keep-header .nav-wrap-pc{
+        padding: 28px 28px 0;
+    }
+    .keep-header .nav-wrap-phone{
+        display: none;
+    }
+    .video-container .video-control #play{
+        display: block;
+    }
+    .video-container .video-bottom .bottom-right a.ew_code{
+        display: inline-block;
+    }
+    .training-wrap .training-body{
+        display: block;
+        top: initial;
+        bottom: 32px;
+        left: 27.8%;
+    }
+    /* 大屏的训练模块 */
+    .training-wrap{
+        height: 636px;
+    }
+    .textpart{
+        padding: 130px 0 140px;
+    }
+    .training-wrap .training-block{
+        width: 356px;
+        height: 207px;
+        margin-left: 0;
+        left: 30px;
+        top:-35px;
+    }
+    .training-wrap .training-block a{
+        display: block;
+        margin: 10px 0 0 0;
+    }
+    .training-wrap .training-block a:nth-child(2n){
+        margin: 10px 0 0 0;
+    }
+    .training-wrap .training-block a:last-child{
+        display: none;
+    }
+    .training-wrap .training-body{
+        top: 70px;
+        left: 38%;
+        bottom: 0;
+    }
+    .training-wrap .img_data{
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 160px;
+    }
+    .training-wrap .img_chart{
+        display: none;
+    }
+    .training-wrap .img_pic{
+        display: block;
+        right: 27px;
+        top: 140px;
+        left: initial;
+    }
+    
+    .training-wrap .training-text .text_p2{
+        margin: 14px 0 22px;
+    }
+    .training-wrap .training-data{
+        display: block;
+    }
+    
+    .training-wrap .training-data-md{
+        display: none;
+    }
+    
+    
+    /* 商品模块 */
+    
+
+    /* 用户模块 */
+    .user-wrap{
+        height: 620px;
+    }
+
+    /* app链接模块 */
+    .link-wrap{
+        height: 368px;
+    }
+}
+@media screen and (max-width: 1439px) and (min-width: 1024px){
+    .run-wrap .run-text{
+        right: initial;
+        left: 298px;
+    }
+    .run-wrap .run-track{
+        left: 45px;
+    }.training-wrap .training-text{
+        right: 25px;
+        bottom: 40px;
+        left: initial;
+        text-align: right;
+        width: 265px;
+    }
+    .link-wrap .link-inner .img_apppages{
+        left: 72px;
+    }
+    .link-wrap .img_qrcoud{
+        display: none;
+    }
+    .link-wrap .link-download{
+        position: absolute;
+        top: 65px;
+        right: 72px;
+    }
+    .link-wrap .link-download .link-btn a{
+        margin-top: 26px;
+    }
+    .store-wrap .store-xl-center{
+        right: 0;
+    }
+    .store-wrap .store-text{
+        right: 26px;
+    }
+    .store-wrap .store-xl-left{
+        left: 28px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .training-inner,.run-inner{
+        position: relative;
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    }
+    .training-wrap .training-data-md{
+        position: absolute;
+        left:485px;
+        bottom:53px;
+        color: #fff;
+        z-index: 1;
+        line-height: 1;
+        display: block;
+    }
+    .training-wrap .training-data{
+        display: none;
+    }
+    .training-wrap .training-body{
+        position: absolute;
+        left: 710px;
+        top: 58px;
+        width: 340px;
+        height: 538px;
+    }
+    .link-wrap .link-inner{
+        position: relative;
+        width: 1400px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .store-wrap .store-inner{
+        position: relative;
+        width: 1440px;
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+
+

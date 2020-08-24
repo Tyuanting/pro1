@@ -1,0 +1,112 @@
+.keep-footer{
+    background-color: #fff;
+}
+.footer-wrap{
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.keep-footer .info-left{
+    float: left;
+    display: flex;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.keep-footer .left-block{
+    margin: 0 40px 0 10px;
+    display: block;
+    flex: 1;
+    
+}
+
+.keep-footer .info-left .left-block a{
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    color: #584f60;
+    font-size: 12px;
+    text-align: center;
+}
+.keep-footer .info-left .left-block .md_0{
+    margin-bottom: 0;
+}
+.keep-footer .info-right{
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+}
+.keep-footer .info-right .info-social{
+    display: flex;
+    margin-bottom: 35px;
+    position: relative;
+    top: 3px;
+}
+.keep-footer .info-right .info-social a{
+    flex: 1;
+    margin-left: 27px;
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 24px 24px;
+    background-color: #584f60;
+    text-align: center;
+}
+.keep-footer .info-right .info-social>a>img{
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+}
+.keep-footer .info-right .info-text{
+    font-size: 12px;
+    color: #999;
+    line-height: 1.8;
+}
+.keep-footer .copyright{
+    margin-top: 100px;
+    padding: 24px 0;
+    border-top: 1px solid #f0f0f0;
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+}
+@media screen and (max-width: 1439px) and (min-width: 1024px){
+.keep-footer .footer-wrap {
+    width: 960px;
+    padding-top: 56px;
+}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+.keep-footer .footer-wrap {
+    width: 720px;
+    padding-top: 60px;
+}
+}
+@media screen and (max-width: 767px){
+.keep-footer .footer-wrap {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 6rem;
+}
+.keep-footer .info-left {
+    float: none;
+    display: flex;
+}
+.keep-footer .info-right {
+    float: none;
+    text-align: center;
+    margin-right: 0;
+}
+.keep-footer .info-right .info-text {
+    display: none;
+}
+.keep-footer .info-right .info-social{
+    margin-top: 50px;
+    display: block;
+}
+}
